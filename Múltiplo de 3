@@ -1,0 +1,6 @@
+contar = 0
+for (let i = 0; i <= 200; i ++){
+  if(i % 3 == 0)
+  contar = contar + 1;
+}
+console.log("Existem", contar, "multiplos de 3!")
