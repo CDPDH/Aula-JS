@@ -1,0 +1,9 @@
+let salario = 2500;
+
+if (salario < 2000){
+  salario = salario + (salario * (10/100));
+} else{
+  salario = salario + (salario * (15/100));
+}
+
+console.log("Novo Salario é", salario);
